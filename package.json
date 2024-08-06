@@ -1,6 +1,6 @@
 {
   "name": "capacitor-phone-hint",
-  "version": "1.0.0",
+  "version": "6.0.0",
   "description": "Implementation of Android phone-hint feature for capacitor project",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -43,8 +43,8 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^4.0.0",
-    "@capacitor/core": "^4.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
     "@capacitor/docgen": "^0.0.18",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
@@ -58,7 +58,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^4.0.0"
+    "@capacitor/core": "^6.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",

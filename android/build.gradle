@@ -18,12 +18,13 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.iqbalfn.capacitor.phonehint"
     compileSdkVersion project.hasProperty('compileSdkVersion') ? rootProject.ext.compileSdkVersion : 32
     defaultConfig {
         minSdkVersion project.hasProperty('minSdkVersion') ? rootProject.ext.minSdkVersion : 22
         targetSdkVersion project.hasProperty('targetSdkVersion') ? rootProject.ext.targetSdkVersion : 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 6
+        versionName "6.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
